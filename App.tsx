@@ -56,7 +56,7 @@ function Section({children, title}: SectionProps): React.JSX.Element {
   );
 }
 
-function App({session_id}:{session_id:string}): React.JSX.Element {
+function App({collectId}:{collectId:string}): React.JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
 
   const backgroundStyle = {
@@ -66,7 +66,7 @@ function App({session_id}:{session_id:string}): React.JSX.Element {
   return (
     <View style={styles.container}>
       
-    <Payment sessionId={`session_aX78kGp4t0q9XLbgnxXgKnRfctiqjThUqWhExdyy5HAEhkQLp9WfKwWZ3CzFGVzWYzyaMKrKszMKarSFvTipcXcsl0CzJQFYt5K9fF-mJ7cN`} collectId={`661f8dd7691f2e6bcec01320`} amount={1} />
+    <Payment collectId={`6621f9d2c72850d9cdc1d58c`}/>
       </View>
       
   );
